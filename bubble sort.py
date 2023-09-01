@@ -16,8 +16,8 @@ while sort == False:
             array[i] = temp
             sort = False #set flag to false
         print(array)
-    if sort == False:
-        passes = passes + 1
+    if sort == False: #check if sorted 
+        passes = passes + 1 #increment passes
         print("pass", passes)
     else:
         print("list sorted: ")
